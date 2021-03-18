@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "zap-automation"
+version = "0.1.0"
+description = "Automation framework for OWASP ZAProxy"
+authors = ["Michael Taggart <michael.t.taggart@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+"python-owasp-zap-v2.4" = "^0.0.18"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
